@@ -1,0 +1,9 @@
+{
+    "posgres_creds": {
+        "DB_NAME" : "postgres",
+        "USER" : "postgres",
+        "PASSWORD" : "",
+        "HOST" : "localhost",
+        "PORT" : "5432"
+    }
+}

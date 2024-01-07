@@ -1,0 +1,30 @@
+Creating a DWH 
+
+Find columns which can be brough under a roof and serve as dimension table.
+    Categorical columns and cols with low variance can be generally adopted as Dimension tables.
+
+
+
+
+
+
+Dimension tables:
+
+1. Datetime 
+    Pick-up and drop-off Datetime
+
+2. Passenger count
+
+3. Pick-up location
+
+4. Drop-off location 
+
+5. Rate-code
+
+6. Payment type
+
+7. Trip distance
+
+We didn't create dim on fare as they can be very different from each one and depends on multiple factors
+
+So, we also realised that columns which are very less dependent on each other and can have multiple similar occurance can be put into dim.
